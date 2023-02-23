@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity">
+
+    <TextView
+        android:id="@+id/Schedule1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Schedule Interview"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Schedule1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="  Keshav Banka"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deepak2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="600dp"
+        android:layout_marginBottom="62dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        tools:ignore="UnknownId" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginBottom="423dp"
+        android:text="@string/select_date_and_time"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonAppDate3"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="-112dp"
+        android:layout_marginEnd="153dp"
+        android:text="Select Interview time"
+        android:textColor="@color/cardview_dark_background"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="162dp"
+        android:text="Submit" />
+
+
+</RelativeLayout>

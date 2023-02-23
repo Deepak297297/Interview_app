@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity">
+
+    <TextView
+        android:id="@+id/Schedule1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Schedule Interview"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Schedule1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="  Viral pipliwal"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deepak2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="600dp"
+        android:layout_marginBottom="62dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        tools:ignore="UnknownId" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginBottom="420dp"
+        android:text="Select Date"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonAppDate2"
+        style="?android:spinnerStyle"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="-121dp"
+        android:layout_marginEnd="138dp"
+        android:text="27/10/2022"
+        android:textColor="@color/cardview_dark_background"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="154dp"
+        android:text="Select Time"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonAppDate"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="238dp"
+        android:text="10:00"
+        android:layout_below="@+id/textView2"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="162dp"
+        android:text="Submit" />
+
+
+</RelativeLayout>
